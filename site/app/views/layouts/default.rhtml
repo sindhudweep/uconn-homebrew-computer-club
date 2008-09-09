@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<%= render(:partial => "/shared/meta") %>
+<body>
+<%= render(:partial => "/shared/header") %>
+  <div id="wrap">
+    <div id="wrap-inner">  
+      <%= yield  %>
+      <hr>
+    </div>
+  </div>
+
+<hr>
+
+<%= render(:partial => "/shared/footer") %>
+
+</body>
+</html>

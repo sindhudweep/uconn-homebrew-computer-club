@@ -1,0 +1,17 @@
+<div id="header">
+  <div>
+    <h1><%= link_to "Homebrew", :controller =>"greeter", :action => "about" %></h1>
+    
+    <ul>
+      <li><%= if session[:user]
+                link_to "Logout", :controller => "auth", :action => "signout"
+              else
+                link_to "Login", :controller => "auth", :action => "signin"
+              end %>
+      </li>
+    </ul>
+  </div>
+</div>
+<div id="dash">
+<p style="color: green"><%= flash[:notice] %></p>
+</div>

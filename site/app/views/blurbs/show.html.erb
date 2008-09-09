@@ -1,0 +1,13 @@
+<p>
+  <b>Title:</b>
+  <%=h @blurb.title %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%=h @blurb.body %>
+</p>
+
+
+<%= link_to 'Edit', edit_blurb_path(@blurb) %> |
+<%= link_to 'Back', blurbs_path %>

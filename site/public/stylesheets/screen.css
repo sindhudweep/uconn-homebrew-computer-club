@@ -1,0 +1,300 @@
+/* ------------------------------------------------------------
+
+    Title:        Uconn Homebrew Technology Club Master CSS File
+    MediaTarget:  Screen
+    Author:       Sindhudweep Sarkar
+    Updated:      September 9, 2008
+    Copyright (c) 2008 Uconn Homebrew Technology Club
+
+------------------------------------------------------------ */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	font-size: small;
+	text-align: center;
+	color: #474A51;
+	background: #F4F4ED;
+	}
+
+/* links */
+
+a:link, a:visited {
+	color: #474A51;
+	text-decoration: none;
+	}
+a:hover {
+	text-decoration: underline;
+	}
+	
+/* ------------------------------------------------------------
+
+	page structure
+
+------------------------------------------------------------ */
+
+#wrap {	
+	margin: 0;
+	padding: 0 0 20px 0;
+	}
+#wrap-inner {
+	width: 74em;
+	margin: 0 auto;
+	padding: 0 2em;
+	font-size: 95%;
+	text-align: left;
+	}
+/* ------------------------------------------------------------
+
+	Content
+
+------------------------------------------------------------ */
+div.main {
+  float:left;
+  width:72em;
+}
+
+div.item {
+  margin:0;
+  padding:1em 0;
+  width:69em;
+}
+
+div.item-l {
+  float:left;
+  margin:0;
+  padding:2em 0 0 1em;
+  text-align:left;
+  vertical-align :bottom;
+  width:20em;
+}
+
+div.item-r {
+  float:right;
+  margin:0 1em 0 0;
+  padding:0;
+  width:47em;
+}
+
+/* ------------------------------------------------------------
+
+	header
+
+------------------------------------------------------------ */
+
+#header {
+	margin: 0;
+	font-size: 95%;
+	text-align: left;
+	background: #383D44;
+	}
+#header div {
+	position: relative;
+	width: 78em;
+	margin: 0 auto;
+	padding: 0 15px;
+	}
+#header h1 {	
+	float: left;
+	margin: 0;
+	padding: 20px 0;
+	text-indent: -9999px;
+	}
+#header h1 a {
+	display: block;
+	width: 151px;
+	height: 48px;
+	background: url(../images/Logo.png) no-repeat top left;
+	}
+#header div ul {
+	float: right;
+	margin: 53px 0 0 20px;
+	padding: 0;
+	font-size: 90%;
+	list-style: none;
+	}
+#header ul li {
+	float: left;
+	margin: 0 0 0 3px;
+	padding: 0;
+	background: #006D00;
+	}
+#header ul li a {
+	float: left;
+	display: block;
+	padding: 8px 12px;
+	text-decoration: none;
+	color: #fff;
+	}
+#header ul li a:hover {
+	background: #007E00;
+	}
+#header ul li a#user {
+	padding-left: 19px;
+	background-repeat: no-repeat;
+	background-position: 8px 11px;
+	}
+#header ul li a#mess {
+	padding-left: 21px;
+	background-repeat: no-repeat;
+	background-position: 8px 12px;
+	}
+#header ul li a#creuser {
+	padding-left: 24px;
+	background-repeat: no-repeat;
+	background-position: 8px 10px;
+	}
+#header ul li a#link-admin {
+	padding-left: 22px;
+	background-repeat: no-repeat;
+	background-position: 8px 10px;
+	}
+
+/* ------------------------------------------------------------
+
+	Rails Notification
+
+------------------------------------------------------------ */
+
+#dash {
+	width: 730px;
+	margin: 0 auto 15px auto;
+	padding: 10px 10px;
+	font-size: 90%;
+	line-height: 90%;
+	text-align: left;
+	}
+#dash p {
+	width: 380px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+	line-height: 1.4em;
+	}
+#dash p strong {
+	padding: 0 0 0 12px;
+	font-weight: normal;
+	color: #963;
+	}
+#dash p a {
+	display: block;
+	}
+#search-top {
+	float: right;
+	margin: 0;
+	padding: 0;
+	}
+
+img.thumb {
+	width: 440px;
+	}
+
+/* error messages */
+
+#errorExplanation {
+	margin: 0 0 25px 0;
+	padding: 20px;
+	border-top: 2px solid #EFD6AA;
+	border-bottom: 2px solid #EFD6AA;
+	}
+
+/* ------------------------------------------------------------
+
+	home page specific
+
+------------------------------------------------------------ */
+
+
+#greeter {
+	margin: 15px 10px 5px 0;
+	padding: 0;
+	}
+#greeter p {
+	margin: 1.5em 180px 1em 0;
+	line-height: 1.5em;
+	}
+#greeter ul {
+	margin: 0 190px 0 20px;
+	padding: 0;
+	list-style: none;
+	}
+#greeter ul li {
+	margin: 0 0 10px 0;
+	padding: 0 0 0 26px;
+	font-size: 100%;
+	line-height: 1.3em;
+	font-weight: normal;
+	color: #963;
+	}
+	
+/* ------------------------------------------------------------
+
+	footer
+
+------------------------------------------------------------ */
+
+#footer {
+  background: #709F70 none repeat scroll 0 0;
+	clear: both;
+	margin: 0;
+	padding: 30px 0 40px 0;
+	font-size: 95%;
+	}
+#footer-inner {
+	width: 750px;
+	margin: 0 auto 10px auto;
+	padding: 0 15px;
+	text-align: left;
+	font-size: 90%;
+	}
+#footer p {
+	margin: 0 0 8px 0;
+	padding: 0;
+	}
+#footer a {
+	color: #BCDDBC;
+	}
+#footer p#copyright {
+	margin-top: 20px;
+	padding: 2px 0;
+	}
+#footer p#copyright img {
+	margin: 0 6px 0 0;
+	vertical-align: middle;
+	border-right: 1px solid #DCD1B3;
+	border-bottom: 1px solid #DCD1B3;
+	}
+#footer p#copyright a#tundrofav:hover {
+	background: none;
+  }
+
+/* ------------------------------------------------------------
+
+	misc.
+
+------------------------------------------------------------ */
+
+.hide, hr {
+	display: none;
+	}
+a img {
+	border: none;
+	}
+
+/* self-clearing floats */
+
+#wrap-inner:after, 
+#header:after,
+#dash:after,
+#searchoptions:after,
+form#find.find-welcome:after,
+div.teaser:after {
+	content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+    }
+
