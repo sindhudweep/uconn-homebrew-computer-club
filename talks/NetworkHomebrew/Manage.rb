@@ -46,7 +46,7 @@ namespace :wrt54g do
   
   desc "Only do explicit Forwarding"
   task :explicit_forwarding_only do
-    ["iptables -P INPUT ACCEPT"
+    ["iptables -P INPUT ACCEPT",
     "iptables -P OUTPUT ACCEPT",
     "iptables -P FORWARD DROP"].each {|cmd| run cmd}
   end
